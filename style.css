@@ -255,6 +255,7 @@ list-style:none;
 
 .mokuzi li{
 margin:10px 0;
+padding-bottom: 15px;
 }
 
 .mokuzi li::before{
@@ -272,13 +273,13 @@ counter-reset:item;
 }
 
 .mokuzimozi{
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .mokuzi a{
 text-decoration:none;
 color:#1a5fb4;
-font-size: 15px;
+font-size: 19px;
 }
 
 /* ===== Main / Panels ===== */
@@ -494,4 +495,5 @@ html {
   0% { opacity: 1; }
   80% { opacity: 1; }  /* しばらく表示 */
   100% { opacity: 0; } /* 消える */
+
 }
