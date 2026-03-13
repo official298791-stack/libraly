@@ -273,13 +273,13 @@ counter-reset:item;
 }
 
 .mokuzimozi{
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .mokuzi a{
 text-decoration:none;
 color:#1a5fb4;
-font-size: 15px;
+font-size: 13px;
 }
 
 /* ===== Main / Panels ===== */
@@ -497,4 +497,5 @@ html {
   100% { opacity: 0; } /* 消える */
 
 }
+
 
