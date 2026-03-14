@@ -15,6 +15,48 @@ font-family:"Noto Sans JP",sans-serif;
 background:#f4f6f8;
 color:#111;
 line-height:1.6;
+background:url(back/2.jpg);
+}
+
+/* ===== Header ===== */
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background-color:white;
+z-index:1000;
+display:flex;
+align-items:center;
+justify-content:space-between;
+font-family:"Noto Serif JP",serif;
+padding-left:25px;
+padding-right:30px;
+padding-top:10px;
+background:url(back/2.jpg);
+}
+
+header .navi ul{
+display:flex;
+}
+
+header li{
+margin-left:2px;
+padding-left:30px;
+}
+
+header .navi a{
+font-family:"Noto Sans JP",sans-serif;
+font-size:17px;
+padding-right:2px;
+}
+
+header .mokuroku a{
+font-family:"Noto Sans JP",sans-serif;
+font-size:17px;
+padding-right:40px;
+text-decoration:underline;
+font-weight:400;
 }
 
 /* ===== Header ===== */
