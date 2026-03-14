@@ -78,6 +78,7 @@ td {
   padding: clamp(6px, 0.5vw, 14px);
   border: 1px solid gray;
   text-align: left;
+  font-family: "Noto Serif JP", serif;
 }
 
 /* ===== details / summary ===== */
@@ -202,7 +203,6 @@ header .mokuroku a{
   inset: 0;
   background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.12));
   pointer-events: none;
-  
 }
 .hero-inner {
   position: relative;
@@ -304,6 +304,7 @@ main {
   display: flex;
   flex-direction: column; /* 縦並び */
   gap: 20px;
+  font-family: "Noto Serif JP", serif;
 }
 /* ===== table ===== */
 .info-table,
