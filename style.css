@@ -120,8 +120,6 @@ header .navi ul{
   display: flex;
 }
 
-
-
 header li{
   margin-left: 2px;
   padding-left: 30px;
@@ -135,7 +133,7 @@ header .navi a{
 }
 
 header .mokuroku a{
-  font-size: 17px;
+  font-size: 14px;
   padding-right: 40px;
   text-decoration: underline;
   font-weight: 100;
