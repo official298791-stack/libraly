@@ -1,0 +1,136 @@
+/* ===== 全体設定 ===== */
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+html{
+font-size:14px;
+}
+
+body{
+background:#f4f6f8;
+color:#111;
+line-height:1.6;
+background:url(back/2.jpg);
+}
+
+h1,h2{
+  font-family:"Zen Old Mincho",serif;
+  font-weight: 200;
+}
+
+p,a{
+  font-family:"Zen Old Mincho",serif;
+}
+
+/* ===== Header ===== */
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background-color:white;
+z-index:1000;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding-left:25px;
+padding-right:30px;
+padding-top:10px;
+background:url(back/2.jpg);
+}
+
+header .navi ul{
+display:flex;
+}
+
+header li{
+margin-left:2px;
+padding-left:30px;
+}
+
+header .navi a{
+font-size:17px;
+padding-right:2px;
+}
+
+header .mokuroku a{
+font-size:17px;
+padding-right:40px;
+text-decoration:underline;
+font-weight:200;
+}
+
+/* ===== Main ===== */
+
+main{
+max-width:var(--max-width,1200px);
+margin:15px auto;
+padding:100px 12px;
+background-color:rgba(255,255,255,0.30);
+border-radius:8px;
+box-shadow:0 6px 18px rgba(0,0,0,0.03);
+}
+
+.panel{
+background:#fff;
+padding:1.2rem;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+padding-bottom:80%;
+}
+
+h2{
+font-size:28px;
+padding-top:10px;
+padding-left:5px;
+text-align: center;
+}
+
+.itiran{
+padding-top:40px;
+}
+
+.itiran nav a{
+font-size:22px;
+color: #111;
+}
+
+.itiran nav{
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* ===== Footer ===== */
+
+.site-footer{
+text-align:center;
+background:#1b2a3a;
+color:#fff;
+font-size:0.85rem;
+padding:30px;
+}
+
+/* ===== Back to top ===== */
+
+.back-to-top{
+position:fixed;
+bottom:30px;
+right:30px;
+width:55px;
+height:55px;
+background:#1b2a3a;
+color:#fff;
+text-align:center;
+line-height:55px;
+border-radius:50%;
+text-decoration:none;
+font-size:1.2rem;
+}
+
+.back-to-top:hover{
+opacity:0.7;
+}
