@@ -607,7 +607,6 @@ details p{
   display:none;
   flex-direction:column;
   cursor:pointer;
-  padding-right: 10px;
 }
 
 .menu-icon span{
